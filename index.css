@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+table {
+    width: 90%;
+  }
+  tr {
+      line-height: 15.33%;
+      position: relative;
+  }
+  td {
+    width: 15.33%;
+    position: relative;
+  }
+  td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+  }
+  td .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #1{
+      background-color: #FF00FF;
+  }
+  #2{
+    background-color: #FF00FF;
+}
